@@ -12,7 +12,7 @@ const Doctors = () => {
   const filteredDoctors = speciality
     ? doctors.filter((doc) => doc.speciality === speciality)
     : doctors;
-  const [showFilter,setShowFilter] = useState(false)
+  const [showFilter,setShowFilter] = useState(true)
 
   return (
     <div>
